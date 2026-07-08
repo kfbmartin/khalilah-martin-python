@@ -33,11 +33,11 @@ item = 'T-Shirt'
 price = 19.99
 quantity = 1
 print(f"Item: {item}")
-print(f"Price: {price}")
+print(f"Price: ${price}")
 print(f"Quantity: {quantity}")
 
 print("--------------------------")
-print(f"Total: {quantity*price}")
+print(f"Total: ${quantity*price}")
 print("==========================")
 
 #Section 5: Mini-Project - Profile Card
@@ -53,5 +53,5 @@ print(f"           PROFILE: {username}")
 print("╚══════════════════════════════╝")
 print(f"Hometown: {hometown}")
 print(f"Hobby:    {hobby}")
-print(f"Fun Fact: {fact}")
+print(f"Fun fact: {fact}")
 print(f"Age:      {2026-birthYear}")
