@@ -17,12 +17,11 @@ birth_year = int(input('What year were you born? '))
 
 print (f"Hi, {name}! You are approximately {2026-birth_year} years old.")
 
+#Section 3: Type Conversion and f-strings
 num1 = float(input('Please enter a number:'))
 num2 = float(input('Please enter a another number:'))
-
-#Section 3: Type Conversion and f-strings
-print(f"The numbers you entered is {num1} and {num2}.")  
-print(f"{num1} x {num2} is {num1*num2}.")
+print(f"The numbers you entered are {num1} and {num2}.")  
+print(f"{num1} x {num2} = {num1*num2}.")
 
 #Section 4: Formatted Receipt
 print("==========================")
@@ -45,7 +44,7 @@ username = input('What is your name? ')
 hometown = input('What is your hometown? ')
 hobby = input('What is your favorite hobby? ')
 fact = input('What is one fun fact about yourself? ')
-birthYear = int(input('What year was you born? '))
+birth_year = int(input('What year was you born? '))
 
 print("")
 print("╔══════════════════════════════╗")
@@ -54,4 +53,5 @@ print("╚═══════════════════════�
 print(f"Hometown: {hometown}")
 print(f"Hobby:    {hobby}")
 print(f"Fun fact: {fact}")
-print(f"Age:      {2026-birthYear}")
+print(f"Age:      {2026-birth_year}")
+
